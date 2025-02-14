@@ -28,6 +28,6 @@ class Conta {
   }
 
   void imprimeSaldo() {
-    print('O saldo atual de $titular é de R\$ $_saldo.');
+    print('O saldo atual de $titular é de R\$ ${_saldo.toStringAsFixed(2)}.');
   }
 }
